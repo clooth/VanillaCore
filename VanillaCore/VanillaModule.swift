@@ -12,5 +12,5 @@ import UIKit
 public protocol VanillaModule {
   class func baseNavigationController() -> UINavigationController
   class func moduleIdentifierString() -> String
-  class func moduleRoutes() -> [String]
+  class func moduleRoutes() -> [VanillaRoute]
 }
